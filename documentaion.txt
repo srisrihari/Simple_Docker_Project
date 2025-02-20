@@ -1,0 +1,20 @@
+﻿Documentation for building and running the container
+
+
+Build the Docker Image:
+docker build -t flask-app .
+
+-Creates a Docker image named flask-app from the Dockerfile.
+
+
+
+Run the Docker Container:
+docker run -d -p 5000:5000 --name flask-container flask-app
+
+-Starts a container named flask-container and maps port 5000.
+
+
+
+Test the Application:
+Open http://localhost:5000 in a browser
+
